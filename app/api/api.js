@@ -1,5 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var bodyParser = require('body-parser');
+
+router.use(bodyParser.json());
 
 router.get('/api/people', function (req, res) {
   var db = req.app.get('db');
@@ -62,6 +65,7 @@ router.delete('/api/people/:id', function (req, res) {
       res.status(500);
       return;
     }
+    res.json({'deleted':'successfully'});
     res.status(200);
   });
 });

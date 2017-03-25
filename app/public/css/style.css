@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100, 300);
+
+
+body{
+  margin: 0;
+  padding-top:80px;
+  font-size: 16px;
+  background-color: #efefee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #C1343F;
+}
+
+p {
+  font-family: inherit;
+  font-weight: 100;
+}
+
+
+li {
+  font-family: inherit;
+  font-weight: 100;
+}
+
+
+a {
+  color: #DD4F53;
+}
+.
+button-group{
+	margin-left: 150px;
+}
+/**  Header Navigation **/
+
+header {
+  font-size: 2rem;
+}
+
+/**  Navbar **/
+
+header .navbar {
+  background: #d2c6c8;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+header .navbar-default {
+  border: none;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+.navbar-inverse {
+  border: 0;
+}
+
+
+header .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+header .navbar-inverse .navbar-brand {
+  color: white;
+}
+
+header .navbar-inverse .navbar-nav>li>a {
+  color: white;
+} 
+
+
+.people, .people-form-title {
+  font-size: 2rem;
+}
+
+.people-form {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+
+.people-title {
+  font-size: 1.2em;
+}
+
+.people-form-title {
+  font-size: 1.5em;
+}
+
+.people-name {
+  font-size: .6em;
+  font-weight: 100;
+}
+.people-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.people-item:last-of-type {
+  border-bottom: none;
+}
+
+.people.maincontent{
+	margin-top: 50px;
+}
+span.button-group{
+	margin-left: 100px;
+}
