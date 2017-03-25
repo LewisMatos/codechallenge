@@ -3,7 +3,7 @@
 https://lm-spotify.herokuapp.com/
 
 ### Usage
-All request are done through the homepage.
+All request on the Client are handled on the homepage. https://lm-spotify.herokuapp.com/
 * GET requests to /api/people are handled automatically on page load.
 * Form to make post request to /api/people
 * Edit Person makes a PUT request to api/people/:id
@@ -11,6 +11,6 @@ All request are done through the homepage.
 
 ### API
 * Accessing the api would be through /api/people
-* Payloads are JSON
+* https://lm-spotify.herokuapp.com/api/people
 
 Thanks for checking out my code challenge!!
