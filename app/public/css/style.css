@@ -1,6 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100, 300);
-
-
 body{
   margin: 0;
   padding-top:80px;
@@ -14,32 +12,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #C1343F;
 }
 
-p {
-  font-family: inherit;
-  font-weight: 100;
-}
-
 
 li {
   font-family: inherit;
   font-weight: 100;
 }
 
-
-a {
-  color: #DD4F53;
-}
-.
 button-group{
 	margin-left: 150px;
 }
-/**  Header Navigation **/
+
 
 header {
   font-size: 2rem;
 }
-
-/**  Navbar **/
 
 header .navbar {
   background: #d2c6c8;
@@ -59,21 +45,11 @@ header .navbar-default {
   border: 0;
 }
 
-
 header .navbar-brand {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
   font-weight: 300;
 }
-
-header .navbar-inverse .navbar-brand {
-  color: white;
-}
-
-header .navbar-inverse .navbar-nav>li>a {
-  color: white;
-} 
-
 
 .people, .people-form-title {
   font-size: 2rem;
@@ -100,10 +76,6 @@ header .navbar-inverse .navbar-nav>li>a {
 .people-item {
   border-bottom: 1px solid gray;
   padding: 8px 0;
-}
-
-.people-item:last-of-type {
-  border-bottom: none;
 }
 
 .people.maincontent{
