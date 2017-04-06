@@ -1,4 +1,4 @@
-# Spotify take home challenge
+# tpp challenge
 ### Heroku Link
 https://lm-spotify.herokuapp.com/
 
